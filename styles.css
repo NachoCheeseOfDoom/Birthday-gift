@@ -1,7 +1,8 @@
 body{
   font-family: 'Happy Monkey', cursive;
   text-align: center;
-  background-color: #a2d2ff;
+  /* background: linear-gradient(#a2d2ff, #a2d2ff72); */
+  background: radial-gradient(#EFB0C9, #a2d2ff);
   color: white;
   text-shadow: 1px 1px 2px black;
   display: flex;
@@ -21,4 +22,72 @@ body{
   background: #EFB0C9;
   padding: 2px 10px;
   border-radius: 5px;
+}
+
+
+/* //////////////////////////////// */
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-img{
+  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2016/06/gift-box-cover.jpg");
+  width: 400px;
+  height: 400px;
+  border: solid 4px white;
+  border-radius: 10px;
+  background-size: cover;
+  margin: auto;
+  transition: background-image 0.50s;
+}
+
+#gift-img-happy:hover{
+  transition: background-image 0.50s;
+  background-image: url("https://media3.giphy.com/media/kHmVOy84g8G6my09fu/giphy.gif");
+}
+
+.gift2-img{
+  background-image: url("https://www.psdgraphics.com/wp-content/uploads/2016/06/gift-box-cover.jpg");
+  width: 400px;
+  height: 400px;
+  border: solid 4px white;
+  border-radius: 10px;
+  background-size: cover;
+  margin: auto;
+  transition: background-image 0.50s;
+}
+
+#gift-img-hot:hover{
+  transition: background-image 0.50s;
+  background-image: url("https://media0.giphy.com/media/YxKXWOhTSq8I14NKEn/200w.gif?cid=82a1493bjfjxm8jqo9nsykxc9udvo70b30jku3xydr1ul4dv&rid=200w.gif&ct=g");
+}
+
+#gift-img-genius:hover{
+  transition: background-image 0.50s;
+  background-image: url("https://media.tenor.com/yL9ngAGX60oAAAAM/genius-very-smart.gif");
+}
+
+#gift-img-badass:hover{
+  transition: background-image 0.50s;
+  background-image: url("https://media1.giphy.com/media/VIoJEvVTq8X1R3fqP7/200.gif");
+}
+
+#gift-img-cheers:hover{
+  transition: background-image 0.50s;
+  background-image: url("https://media0.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+}
+
+#gift-img-cheers{
+  height: 200px;
+  margin-bottom: 0px;
+}
+
+#footer{
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+}
+
+a{
+  color: white;
 }
